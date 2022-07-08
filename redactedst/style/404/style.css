@@ -57,7 +57,7 @@ body, html {
 .backgroundBox p a {
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0);
-    color: rgb(0, 153, 255);
+    color: #00ccff;
 }
 
 .backgroundImage {
