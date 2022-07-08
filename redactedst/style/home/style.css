@@ -55,7 +55,7 @@ body, html {
     font-weight: 400;
     color: #5865F2;
     background-color: rgba(0, 0, 0, 0);
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
 .backgroundBox a:hover {
@@ -71,7 +71,7 @@ body, html {
     color: #ffffff;
     background-color: #5865F2;
     font: 100% "Roboto", sans-serif;
-    transition: all 0.3s ease 0s;
+    transition: all 0.2s ease 0s;
 }
 
 .backgroundBox button:hover {
