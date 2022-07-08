@@ -110,7 +110,7 @@ body, html {
 @media only screen and (max-width : 600px) {
     .backgroundBox {
         width: 50%;
-        height: 39%;
+        height: 40%;
         border-radius: 5px;
         padding: 0.5%;
     }
