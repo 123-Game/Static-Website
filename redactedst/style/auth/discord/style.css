@@ -78,16 +78,19 @@ body, html {
 }
 
 .backgroundBox button[id="no"]:hover {
-    margin: 5%;
-    cursor: pointer;
-    color: #ffffff;
-    border-color: #ca3c3e;
     background-color: rgba(202, 60, 62, 1);
-    font: 100% "Roboto", sans-serif;
 }
 
-.backgroundBox button:hover[id="yes"] {
+.backgroundBox button[id="yes"]:hover {
     background-color: #4954C8;
+}
+
+.backgroundBox button[id="no"]:active {
+    background-color: #c03537;
+}
+
+.backgroundBox button[id="yes"]:active {
+    background-color: #3C45A5;
 }
 
 .backgroundImage {
