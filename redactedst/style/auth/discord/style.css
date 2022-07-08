@@ -33,11 +33,61 @@ body, html {
     background-color: rgba(0, 0, 0, 0);
 }
 
-.backgroundBox p[id="verify"] {
-    padding-top: 6%;
-    font-size:  45px;
+.backgroundBox img {
+    margin-top: 3%;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.backgroundBox p[id="title"] {
+    padding-top: 3%;
+    font-size:  30px;
     font-weight: 600;
     color: #ffffff;
+}
+
+.backgroundBox p[id="name"] {
+    padding-top: 3%;
+    font-size:  20px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.backgroundBox button[id="yes"] {
+    margin: 5%;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #5865F2;
+    font: 100% "Roboto", sans-serif;
+    transition: all 0.2s ease 0s;
+}
+
+.backgroundBox button[id="no"] {
+    margin: 5%;
+    padding: 8px 14px;
+    border: 1px solid #ca3c3e;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: rgba(202, 60, 62, 0);
+    font: 100% "Roboto", sans-serif;
+    transition: all 0.2s ease 0s;
+}
+
+.backgroundBox button[id="no"]:hover {
+    margin: 5%;
+    cursor: pointer;
+    color: #ffffff;
+    border-color: #ca3c3e;
+    background-color: rgba(202, 60, 62, 1);
+    font: 100% "Roboto", sans-serif;
+}
+
+.backgroundBox button:hover[id="yes"] {
+    background-color: #4954C8;
 }
 
 .backgroundImage {
