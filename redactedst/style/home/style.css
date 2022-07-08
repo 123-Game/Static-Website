@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+body, html {
+    height: 100%;
+}
+
+.backgroundBox {
+    user-select: none;
+	margin: auto;
+	width: 35%;
+	height: 39%;
+    border-radius: 5px;
+    background-color: #36393F;
+	padding: 10px;
+	position: absolute;
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+	text-align: center;
+	font: 100% "Roboto", sans-serif;
+}
+
+.backgroundBox p {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.backgroundBox p[id="verify"] {
+    padding-top: 6%;
+    font-size:  45px;
+    font-weight: 600;
+    color: #ffffff;
+}
+
+.backgroundBox p[id="or"] {
+    padding-top: 2%;
+    padding-bottom: 5%;
+    font-size:  25px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+
+.backgroundBox a {
+    text-decoration: none;
+    font-size:  20px;
+    font-weight: 400;
+    color: #5865F2;
+    background-color: rgba(0, 0, 0, 0);
+    transition: all 0.3s ease 0s;
+}
+
+.backgroundBox a:hover {
+    color: #6c78ff;
+}
+
+.backgroundBox button {
+    margin: 5%;
+    padding: 9px 15px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    color: #ffffff;
+    background-color: #5865F2;
+    font: 100% "Roboto", sans-serif;
+    transition: all 0.3s ease 0s;
+}
+
+.backgroundBox button:hover {
+    background-color: #4954C8;
+}
+
+.backgroundImage {
+    background-image: url("https://static.123game.dev/redactedst/images/backgroundImages/image1.png");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
